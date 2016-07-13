@@ -5,7 +5,7 @@ module.exports = {
         "node": true
     },
 
-    "plugins": ["extra-rules", "xo"],
+    "plugins": ["extra-rules", "xo", "node", "spellcheck"],
 
     "extends": ["eslint:recommended", "plugin:node/recommended"],
 

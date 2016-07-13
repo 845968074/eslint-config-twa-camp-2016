@@ -7,5 +7,5 @@ npm install -g eslint-plugin-spellcheck
 npm install -g eslint-plugin-node
 
 cd project
-eslint . -c excellence-girls --no-eslintrc
+eslint . -c twa-camp-2016 --no-eslintrc
 ```
