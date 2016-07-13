@@ -1,8 +1,10 @@
 module.exports = {
 
     "env": {
-        "es6": false,
-        "node": true
+        "es6": true,
+        "node": true,
+        "jasmine": true,
+        "jquery": true
     },
 
     "plugins": ["extra-rules", "xo", "node", "spellcheck"],
