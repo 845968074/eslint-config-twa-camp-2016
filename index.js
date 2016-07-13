@@ -35,15 +35,15 @@ module.exports = {
         "extra-rules/no-long-files": ["error", 100],
         "extra-rules/no-commented-out-code": "error",
 
-        "xo/filename-case": ["error",  {"case": "kebabCase"}],
+        "xo/filename-case": ["error",  {"case": "kebabCase"}]
 
-        "spellcheck/spell-checker": ["error", {
+        /* "spellcheck/spell-checker": ["error", {
            "comments": true,
            "strings": true,
            "identifiers": true,
            "lang": "en_US",
            "skipWords": ["req", "res", "stringify", "barcode", "fs", "params", "utf", "fd", "lodash", "api", "morgan", "uncomment", "dirname", "filename", "dev", "urlencoded", "stacktrace", "html", "mongo", "str", "mongodb", "localhost", "init", "len", "http"],
            "skipIfMatch": ["http://[^s]*"] 
-       }]
+       }] */
    }
 }

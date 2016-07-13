@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twa-camp-2016",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "eslint config predefined for twa-camp-2016",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/twa-camp-2016/eslint-config-twa-camp-2016#readme",
   "peerDependencies": {
     "eslint": ">=0.8.0"
+  },
+  "engines": {
+    "node" : ">=6.0.0"
   }
 }
