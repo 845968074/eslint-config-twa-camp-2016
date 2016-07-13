@@ -6,6 +6,10 @@ npm install -g eslint-plugin-xo
 npm install -g eslint-plugin-spellcheck
 npm install -g eslint-plugin-node
 
+npm install -g eslint-config-twa-camp-2016
+```
+
+```
 cd project
 eslint . -c twa-camp-2016 --no-eslintrc
 ```
