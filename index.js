@@ -7,7 +7,11 @@ module.exports = {
         "jquery": true
     },
 
-    "plugins": ["extra-rules", "xo", "node", "spellcheck"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+
+    "plugins": ["extra-rules", "xo", "node"],
 
     "extends": ["eslint:recommended", "plugin:node/recommended"],
 
@@ -30,6 +34,7 @@ module.exports = {
         // "no-shadow": "error",
         "no-mixed-spaces-and-tabs": "error",
         "eqeqeq": "error",
+        "prefer-const": "error",
 
         // from the 3rd party `eslint-rules`
         "extra-rules/no-long-files": ["error", 100],
@@ -37,13 +42,5 @@ module.exports = {
 
         "xo/filename-case": ["error",  {"case": "kebabCase"}]
 
-        /* "spellcheck/spell-checker": ["error", {
-           "comments": true,
-           "strings": true,
-           "identifiers": true,
-           "lang": "en_US",
-           "skipWords": ["req", "res", "stringify", "barcode", "fs", "params", "utf", "fd", "lodash", "api", "morgan", "uncomment", "dirname", "filename", "dev", "urlencoded", "stacktrace", "html", "mongo", "str", "mongodb", "localhost", "init", "len", "http"],
-           "skipIfMatch": ["http://[^s]*"] 
-       }] */
    }
 }
