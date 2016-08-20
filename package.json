@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twa-camp-2016",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "eslint config predefined for twa-camp-2016",
   "main": "index.js",
   "scripts": {

@@ -37,7 +37,6 @@ module.exports = {
         "prefer-const": "error",
 
         // from the 3rd party `eslint-rules`
-        "extra-rules/no-long-files": ["error", 100],
         "extra-rules/no-commented-out-code": "error",
 
         "xo/filename-case": ["error",  {"case": "kebabCase"}]
